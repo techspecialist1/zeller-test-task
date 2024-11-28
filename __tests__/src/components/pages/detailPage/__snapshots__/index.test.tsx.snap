@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailPage renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "FFFFFF",
+        "flex": 0.7,
+        "padding": 19.692307692307693,
+      }
+    }
+  >
+    <Text>
+      Details
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;

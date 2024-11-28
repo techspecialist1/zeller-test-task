@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchInput renders correctly with default props 1`] = `
+<View
+  style={
+    {
+      "paddingVertical": 9.846153846153847,
+    }
+  }
+>
+  <TextInput
+    onChangeText={[MockFunction]}
+    placeholder="Enter text..."
+    style={
+      {
+        "borderColor": "#ccc",
+        "borderRadius": 9.846153846153847,
+        "borderWidth": 1.2307692307692308,
+        "padding": 9.846153846153847,
+      }
+    }
+  />
+</View>
+`;

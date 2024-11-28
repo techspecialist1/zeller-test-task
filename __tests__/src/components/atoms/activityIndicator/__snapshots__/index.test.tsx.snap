@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityIndicator when isVisible prop is true 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "height": 1334,
+      "justifyContent": "center",
+      "position": "absolute",
+      "width": 750,
+      "zIndex": 1,
+    }
+  }
+>
+  <ActivityIndicator
+    color="#0171CD"
+    size="large"
+  />
+</View>
+`;

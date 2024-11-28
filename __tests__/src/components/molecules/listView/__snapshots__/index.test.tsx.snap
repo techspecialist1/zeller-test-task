@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListView renders correctly with default props 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "marginVertical": 18.46153846153846,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#E8F2FB",
+          "borderRadius": 4.923076923076923,
+          "height": 49.230769230769226,
+          "justifyContent": "center",
+          "width": 49.230769230769226,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#0171CD",
+            "fontSize": 18.46153846153846,
+            "textAlign": "center",
+          }
+        }
+      >
+        P
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "paddingLeft": 14.76923076923077,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#000",
+            "fontSize": 19.692307692307693,
+          }
+        }
+      >
+        Pankaj
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#000",
+            "textTransform": "capitalize",
+          }
+        }
+      >
+        Developer
+      </Text>
+    </View>
+  </View>
+</View>
+`;

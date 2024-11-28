@@ -1,0 +1,11 @@
+c96a6001969a6a63a6afcf2695f4724b
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.apolloClient = void 0;
+var _client = require("@apollo/client");
+var apolloClient = exports.apolloClient = new _client.ApolloClient({
+  uri: 'http://localhost:9002/',
+  cache: new _client.InMemoryCache()
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfY2xpZW50IiwicmVxdWlyZSIsImFwb2xsb0NsaWVudCIsImV4cG9ydHMiLCJBcG9sbG9DbGllbnQiLCJ1cmkiLCJjYWNoZSIsIkluTWVtb3J5Q2FjaGUiXSwic291cmNlcyI6WyJhcG9sbG8tY2xpZW50LnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7SW5NZW1vcnlDYWNoZSwgQXBvbGxvQ2xpZW50fSBmcm9tICdAYXBvbGxvL2NsaWVudCc7XG5cbmV4cG9ydCBjb25zdCBhcG9sbG9DbGllbnQgPSBuZXcgQXBvbGxvQ2xpZW50KHtcbiAgdXJpOiAnaHR0cDovL2xvY2FsaG9zdDo5MDAyLycsXG4gIGNhY2hlOiBuZXcgSW5NZW1vcnlDYWNoZSgpLFxufSk7XG4iXSwibWFwcGluZ3MiOiI7Ozs7QUFBQSxJQUFBQSxPQUFBLEdBQUFDLE9BQUE7QUFFTyxJQUFNQyxZQUFZLEdBQUFDLE9BQUEsQ0FBQUQsWUFBQSxHQUFHLElBQUlFLG9CQUFZLENBQUM7RUFDM0NDLEdBQUcsRUFBRSx3QkFBd0I7RUFDN0JDLEtBQUssRUFBRSxJQUFJQyxxQkFBYSxDQUFDO0FBQzNCLENBQUMsQ0FBQyJ9

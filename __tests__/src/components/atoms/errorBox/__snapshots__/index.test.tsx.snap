@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBox renders correctly with given text 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "marginTop": 12.307692307692307,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#FF0000",
+      }
+    }
+  >
+    An error occurred
+  </Text>
+</View>
+`;
